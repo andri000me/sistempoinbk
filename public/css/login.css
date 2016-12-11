@@ -1,0 +1,23 @@
+#login {
+  width:400px; position: fixed; top:calc(50% - 304px / 2); left:50%; margin-left:-200px;
+}
+h1 {
+  margin:0; padding: 0; font-size:24px; text-align: center;
+}
+
+/* Login Box */
+#login-box {
+  width:100%; box-sizing: border-box; padding: 20px; border: 1px solid #ccc; background-color: rgba(255,255,255,0.5); border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; margin: 10px auto;
+}
+h3 {
+  font-size: 16px; margin:0; padding:0;
+}
+#error {
+    background-color: lightyellow; color: darkred; transition: all 0.3s ease;
+}
+.error {
+    border: 1px solid darkred; padding:10px; margin: 5px auto; width: 100%; box-sizing: border-box;
+}
+#error ul {
+    font-size: 14px;
+}

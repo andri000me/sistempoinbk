@@ -1,0 +1,19 @@
+.content p {
+  margin:0; padding:0;
+}
+
+#inputPoin ul {
+  margin:0; list-style: none; padding:0; position: absolute; top:50px; background:#fff; border:1px solid #ccc; box-sizing: border-box; width:100%; border-radius:0 0 3px 3px; display:none; z-index:999;
+}
+#inputPoin ul li {
+  padding:5px; box-sizing: border-box; font-size: 14px; cursor: pointer;
+}
+#inputPoin ul li:nth-child(odd){
+  background:#f4f4f4;
+}
+#inputPoin {
+  margin:0; position: relative;
+}
+#inputPoin div {
+  position: relative;
+}
